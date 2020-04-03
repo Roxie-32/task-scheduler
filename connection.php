@@ -1,7 +1,6 @@
 <?php
-    session_start();
 
-$connection = mysqli_connect ('localhost', 'root', '','task') ;
+$connection = mysqli_connect('localhost', 'root', '','task') ;
     // if (!$connection) {
     //     echo "connection failed";
     // }else{
@@ -19,6 +18,3 @@ $connection = mysqli_connect ('localhost', 'root', '','task') ;
 </head>
 <body style="background-color: black;">
 
-</body>
-<script src="bootstrap/bootstrap.min.js"></script>
-</html>
